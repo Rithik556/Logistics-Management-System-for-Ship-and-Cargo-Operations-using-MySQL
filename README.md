@@ -1,35 +1,32 @@
 # Logistics_Management_System_for_Ship_and_Cargo_Operations_using_MySQL
 
 📌 Summary
+
 The project develops a robust database system to manage shipping logistics—tracking cargo, scheduling ships, maintaining operational records, and managing employee roles. It provides real-time monitoring and supports advanced SQL features to ensure operational efficiency, resource optimization, and data-driven decision-making.
 
 📊 Datasets (Tables)
-Table Name	Description
-Ships	Stores ship details: ID, name, capacity, status.
-Cargo	Tracks cargo: name, weight, destination, shipping status.
-Ports	Holds port information: name and location.
-ShipRoutes	Schedules and tracks routes: departure/arrival details.
-Employees	Manages logistics staff and crew data.
-MaintenanceLog	Records ship maintenance details and status.
 
-🧩 Modules
-Ship Management
+	1.Table Name	Description
+	2.Ships	Stores ship details: ID, name, capacity, status.
+	3.Cargo	Tracks cargo: name, weight, destination, shipping status.
+	4.Ports	Holds port information: name and location.
+	5.ShipRoutes	Schedules and tracks routes: departure/arrival details.
+	6.Employees	Manages logistics staff and crew data.
+	7.MaintenanceLog	Records ship maintenance details and status.
 
-Register new ships
+🧩 Modules 
 
-Update ship status
+1. Ship Management
+      - Register new ships
+      - Update ship status
+      - Track capacity
 
-Track capacity
+2. Cargo Management
+      - Assign cargo to ships
+      - Track shipping status
+      - Manage cargo weight & destination
 
-Cargo Management
-
-Assign cargo to ships
-
-Track shipping status
-
-Manage cargo weight & destination
-
-Port Management
+3. Port Management
 
 Maintain port records
 
